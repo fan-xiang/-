@@ -15,6 +15,9 @@
 		A964303B1DC98C7F00BCC093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96430391DC98C7F00BCC093 /* LaunchScreen.storyboard */; };
 		A96430461DC98C7F00BCC093 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96430451DC98C7F00BCC093 /* _____Tests.m */; };
 		A96430511DC98C7F00BCC093 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96430501DC98C7F00BCC093 /* _____UITests.m */; };
+		A96430601DC990BF00BCC093 /* WEChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = A964305F1DC990BF00BCC093 /* WEChatView.m */; };
+		A96430631DC990DB00BCC093 /* WEChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A96430621DC990DB00BCC093 /* WEChatTableViewCell.m */; };
+		A96430661DC9912300BCC093 /* WEChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A96430651DC9912300BCC093 /* WEChatModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A964304C1DC98C7F00BCC093 /* 微信菜单栏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信菜单栏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96430501DC98C7F00BCC093 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		A96430521DC98C7F00BCC093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A964305E1DC990BF00BCC093 /* WEChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEChatView.h; sourceTree = "<group>"; };
+		A964305F1DC990BF00BCC093 /* WEChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEChatView.m; sourceTree = "<group>"; };
+		A96430611DC990DB00BCC093 /* WEChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEChatTableViewCell.h; sourceTree = "<group>"; };
+		A96430621DC990DB00BCC093 /* WEChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEChatTableViewCell.m; sourceTree = "<group>"; };
+		A96430641DC9912300BCC093 /* WEChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEChatModel.h; sourceTree = "<group>"; };
+		A96430651DC9912300BCC093 /* WEChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEChatModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,7 @@
 				A964302F1DC98C7F00BCC093 /* AppDelegate.m */,
 				A96430311DC98C7F00BCC093 /* ViewController.h */,
 				A96430321DC98C7F00BCC093 /* ViewController.m */,
+				A96430671DC9912C00BCC093 /* WeChatMenu */,
 				A96430341DC98C7F00BCC093 /* Main.storyboard */,
 				A96430371DC98C7F00BCC093 /* Assets.xcassets */,
 				A96430391DC98C7F00BCC093 /* LaunchScreen.storyboard */,
@@ -138,6 +148,19 @@
 				A96430521DC98C7F00BCC093 /* Info.plist */,
 			);
 			path = "微信菜单栏UITests";
+			sourceTree = "<group>";
+		};
+		A96430671DC9912C00BCC093 /* WeChatMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A964305E1DC990BF00BCC093 /* WEChatView.h */,
+				A964305F1DC990BF00BCC093 /* WEChatView.m */,
+				A96430611DC990DB00BCC093 /* WEChatTableViewCell.h */,
+				A96430621DC990DB00BCC093 /* WEChatTableViewCell.m */,
+				A96430641DC9912300BCC093 /* WEChatModel.h */,
+				A96430651DC9912300BCC093 /* WEChatModel.m */,
+			);
+			name = WeChatMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96430331DC98C7F00BCC093 /* ViewController.m in Sources */,
+				A96430631DC990DB00BCC093 /* WEChatTableViewCell.m in Sources */,
 				A96430301DC98C7F00BCC093 /* AppDelegate.m in Sources */,
+				A96430601DC990BF00BCC093 /* WEChatView.m in Sources */,
 				A964302D1DC98C7F00BCC093 /* main.m in Sources */,
+				A96430661DC9912300BCC093 /* WEChatModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
