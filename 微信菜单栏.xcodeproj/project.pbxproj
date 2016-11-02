@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A964302D1DC98C7F00BCC093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A964302C1DC98C7F00BCC093 /* main.m */; };
+		A96430301DC98C7F00BCC093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A964302F1DC98C7F00BCC093 /* AppDelegate.m */; };
+		A96430331DC98C7F00BCC093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96430321DC98C7F00BCC093 /* ViewController.m */; };
+		A96430361DC98C7F00BCC093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96430341DC98C7F00BCC093 /* Main.storyboard */; };
+		A96430381DC98C7F00BCC093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96430371DC98C7F00BCC093 /* Assets.xcassets */; };
+		A964303B1DC98C7F00BCC093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96430391DC98C7F00BCC093 /* LaunchScreen.storyboard */; };
+		A96430461DC98C7F00BCC093 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96430451DC98C7F00BCC093 /* _____Tests.m */; };
+		A96430511DC98C7F00BCC093 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96430501DC98C7F00BCC093 /* _____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96430421DC98C7F00BCC093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96430201DC98C7F00BCC093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96430271DC98C7F00BCC093;
+			remoteInfo = "微信菜单栏";
+		};
+		A964304D1DC98C7F00BCC093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96430201DC98C7F00BCC093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96430271DC98C7F00BCC093;
+			remoteInfo = "微信菜单栏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A96430281DC98C7F00BCC093 /* 微信菜单栏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信菜单栏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A964302C1DC98C7F00BCC093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A964302E1DC98C7F00BCC093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A964302F1DC98C7F00BCC093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A96430311DC98C7F00BCC093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A96430321DC98C7F00BCC093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A96430351DC98C7F00BCC093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A96430371DC98C7F00BCC093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A964303A1DC98C7F00BCC093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A964303C1DC98C7F00BCC093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96430411DC98C7F00BCC093 /* 微信菜单栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信菜单栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96430451DC98C7F00BCC093 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		A96430471DC98C7F00BCC093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A964304C1DC98C7F00BCC093 /* 微信菜单栏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微信菜单栏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96430501DC98C7F00BCC093 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		A96430521DC98C7F00BCC093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96430251DC98C7F00BCC093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A964303E1DC98C7F00BCC093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96430491DC98C7F00BCC093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A964301F1DC98C7F00BCC093 = {
+			isa = PBXGroup;
+			children = (
+				A964302A1DC98C7F00BCC093 /* 微信菜单栏 */,
+				A96430441DC98C7F00BCC093 /* 微信菜单栏Tests */,
+				A964304F1DC98C7F00BCC093 /* 微信菜单栏UITests */,
+				A96430291DC98C7F00BCC093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96430291DC98C7F00BCC093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96430281DC98C7F00BCC093 /* 微信菜单栏.app */,
+				A96430411DC98C7F00BCC093 /* 微信菜单栏Tests.xctest */,
+				A964304C1DC98C7F00BCC093 /* 微信菜单栏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A964302A1DC98C7F00BCC093 /* 微信菜单栏 */ = {
+			isa = PBXGroup;
+			children = (
+				A964302E1DC98C7F00BCC093 /* AppDelegate.h */,
+				A964302F1DC98C7F00BCC093 /* AppDelegate.m */,
+				A96430311DC98C7F00BCC093 /* ViewController.h */,
+				A96430321DC98C7F00BCC093 /* ViewController.m */,
+				A96430341DC98C7F00BCC093 /* Main.storyboard */,
+				A96430371DC98C7F00BCC093 /* Assets.xcassets */,
+				A96430391DC98C7F00BCC093 /* LaunchScreen.storyboard */,
+				A964303C1DC98C7F00BCC093 /* Info.plist */,
+				A964302B1DC98C7F00BCC093 /* Supporting Files */,
+			);
+			path = "微信菜单栏";
+			sourceTree = "<group>";
+		};
+		A964302B1DC98C7F00BCC093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A964302C1DC98C7F00BCC093 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A96430441DC98C7F00BCC093 /* 微信菜单栏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A96430451DC98C7F00BCC093 /* _____Tests.m */,
+				A96430471DC98C7F00BCC093 /* Info.plist */,
+			);
+			path = "微信菜单栏Tests";
+			sourceTree = "<group>";
+		};
+		A964304F1DC98C7F00BCC093 /* 微信菜单栏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A96430501DC98C7F00BCC093 /* _____UITests.m */,
+				A96430521DC98C7F00BCC093 /* Info.plist */,
+			);
+			path = "微信菜单栏UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96430271DC98C7F00BCC093 /* 微信菜单栏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96430551DC98C7F00BCC093 /* Build configuration list for PBXNativeTarget "微信菜单栏" */;
+			buildPhases = (
+				A96430241DC98C7F00BCC093 /* Sources */,
+				A96430251DC98C7F00BCC093 /* Frameworks */,
+				A96430261DC98C7F00BCC093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信菜单栏";
+			productName = "微信菜单栏";
+			productReference = A96430281DC98C7F00BCC093 /* 微信菜单栏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A96430401DC98C7F00BCC093 /* 微信菜单栏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96430581DC98C7F00BCC093 /* Build configuration list for PBXNativeTarget "微信菜单栏Tests" */;
+			buildPhases = (
+				A964303D1DC98C7F00BCC093 /* Sources */,
+				A964303E1DC98C7F00BCC093 /* Frameworks */,
+				A964303F1DC98C7F00BCC093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96430431DC98C7F00BCC093 /* PBXTargetDependency */,
+			);
+			name = "微信菜单栏Tests";
+			productName = "微信菜单栏Tests";
+			productReference = A96430411DC98C7F00BCC093 /* 微信菜单栏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A964304B1DC98C7F00BCC093 /* 微信菜单栏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A964305B1DC98C7F00BCC093 /* Build configuration list for PBXNativeTarget "微信菜单栏UITests" */;
+			buildPhases = (
+				A96430481DC98C7F00BCC093 /* Sources */,
+				A96430491DC98C7F00BCC093 /* Frameworks */,
+				A964304A1DC98C7F00BCC093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A964304E1DC98C7F00BCC093 /* PBXTargetDependency */,
+			);
+			name = "微信菜单栏UITests";
+			productName = "微信菜单栏UITests";
+			productReference = A964304C1DC98C7F00BCC093 /* 微信菜单栏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96430201DC98C7F00BCC093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "可米小子";
+				TargetAttributes = {
+					A96430271DC98C7F00BCC093 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HMFTZ9QC7T;
+						ProvisioningStyle = Automatic;
+					};
+					A96430401DC98C7F00BCC093 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HMFTZ9QC7T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A96430271DC98C7F00BCC093;
+					};
+					A964304B1DC98C7F00BCC093 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HMFTZ9QC7T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A96430271DC98C7F00BCC093;
+					};
+				};
+			};
+			buildConfigurationList = A96430231DC98C7F00BCC093 /* Build configuration list for PBXProject "微信菜单栏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A964301F1DC98C7F00BCC093;
+			productRefGroup = A96430291DC98C7F00BCC093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96430271DC98C7F00BCC093 /* 微信菜单栏 */,
+				A96430401DC98C7F00BCC093 /* 微信菜单栏Tests */,
+				A964304B1DC98C7F00BCC093 /* 微信菜单栏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96430261DC98C7F00BCC093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A964303B1DC98C7F00BCC093 /* LaunchScreen.storyboard in Resources */,
+				A96430381DC98C7F00BCC093 /* Assets.xcassets in Resources */,
+				A96430361DC98C7F00BCC093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A964303F1DC98C7F00BCC093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A964304A1DC98C7F00BCC093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96430241DC98C7F00BCC093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96430331DC98C7F00BCC093 /* ViewController.m in Sources */,
+				A96430301DC98C7F00BCC093 /* AppDelegate.m in Sources */,
+				A964302D1DC98C7F00BCC093 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A964303D1DC98C7F00BCC093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96430461DC98C7F00BCC093 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96430481DC98C7F00BCC093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96430511DC98C7F00BCC093 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A96430431DC98C7F00BCC093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96430271DC98C7F00BCC093 /* 微信菜单栏 */;
+			targetProxy = A96430421DC98C7F00BCC093 /* PBXContainerItemProxy */;
+		};
+		A964304E1DC98C7F00BCC093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96430271DC98C7F00BCC093 /* 微信菜单栏 */;
+			targetProxy = A964304D1DC98C7F00BCC093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A96430341DC98C7F00BCC093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96430351DC98C7F00BCC093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A96430391DC98C7F00BCC093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A964303A1DC98C7F00BCC093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A96430531DC98C7F00BCC093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A96430541DC98C7F00BCC093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96430561DC98C7F00BCC093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMFTZ9QC7T;
+				INFOPLIST_FILE = "微信菜单栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A96430571DC98C7F00BCC093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMFTZ9QC7T;
+				INFOPLIST_FILE = "微信菜单栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A96430591DC98C7F00BCC093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HMFTZ9QC7T;
+				INFOPLIST_FILE = "微信菜单栏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信菜单栏.app/微信菜单栏";
+			};
+			name = Debug;
+		};
+		A964305A1DC98C7F00BCC093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HMFTZ9QC7T;
+				INFOPLIST_FILE = "微信菜单栏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微信菜单栏.app/微信菜单栏";
+			};
+			name = Release;
+		};
+		A964305C1DC98C7F00BCC093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HMFTZ9QC7T;
+				INFOPLIST_FILE = "微信菜单栏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微信菜单栏";
+			};
+			name = Debug;
+		};
+		A964305D1DC98C7F00BCC093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HMFTZ9QC7T;
+				INFOPLIST_FILE = "微信菜单栏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微信菜单栏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96430231DC98C7F00BCC093 /* Build configuration list for PBXProject "微信菜单栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96430531DC98C7F00BCC093 /* Debug */,
+				A96430541DC98C7F00BCC093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96430551DC98C7F00BCC093 /* Build configuration list for PBXNativeTarget "微信菜单栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96430561DC98C7F00BCC093 /* Debug */,
+				A96430571DC98C7F00BCC093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A96430581DC98C7F00BCC093 /* Build configuration list for PBXNativeTarget "微信菜单栏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96430591DC98C7F00BCC093 /* Debug */,
+				A964305A1DC98C7F00BCC093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A964305B1DC98C7F00BCC093 /* Build configuration list for PBXNativeTarget "微信菜单栏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A964305C1DC98C7F00BCC093 /* Debug */,
+				A964305D1DC98C7F00BCC093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96430201DC98C7F00BCC093 /* Project object */;
+}
